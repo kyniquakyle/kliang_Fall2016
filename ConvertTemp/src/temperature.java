@@ -10,8 +10,8 @@ public class temperature {
 		double c;
 		double convTemp;
 		
-		f = 48;
-		c = (5/9) * (f-32);
+		f = 200;
+		c = (0.5555) * (f-32);
 		convTemp = c;
 		
 		System.out.println("converted temperature is");
